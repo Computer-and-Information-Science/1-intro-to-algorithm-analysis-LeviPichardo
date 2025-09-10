@@ -18,3 +18,14 @@ void reverse (unsigned int n) {
 		reverse(n / 10);
 	}
 }
+
+//What input or parameter value impacts the number of times the recursive function will be called?
+//the amount of digits in the value n
+
+//3 examples
+//n = 0 is 0 calls
+//n = 5 is 1 call
+//n = 1004 is 4 calls 
+
+//Formula:
+//

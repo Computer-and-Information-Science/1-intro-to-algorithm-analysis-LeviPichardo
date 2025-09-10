@@ -17,3 +17,14 @@ string reverse (const string& s) {
 		return reverse(s.substr(1)) + s.substr(0, 1);
 	return s;
 }
+
+//What input or parameter value impacts the number of times the recursive function will be called?
+// The value of s, which is the legnth of the input string
+
+//3 examples
+//A = 0 calls
+//Go = 1 call
+//Hello! = 5 calls
+
+//Formula:
+//
